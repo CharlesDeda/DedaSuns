@@ -9,32 +9,37 @@ import SwiftUI
 
 struct ContentView: View {
   @State var max = 235
+  
   var body: some View {
     NavigationView {
       Form {
-        HStack {
-          TextField.init(
-            "Max",
-            value: $max,
-            formatter: NumberFormatter()
-          )
-          Stepper.init(
-            "",
-            onIncrement: {
-              max += 5
-            },
-            onDecrement: {
-              max -= 5
-            }
-          )
+        Section("Max") {
+          HStack {
+            TextField.init(
+              "Max",
+              value: $max,
+              formatter: NumberFormatter()
+            )
+            Stepper.init(
+              "",
+              onIncrement: {
+                max += 5
+              },
+              onDecrement: {
+                max -= 5
+              }
+            )
+          }
         }
+       
         
-        Section {
+        Section("Workout") {
           List(NsunsWorkout(max: max).nsunsSets) { nsuns in
             HStack {
-              Text("Percent: \(nsuns.percentage)%")
-              Text("Weight: \(nsuns.weight)")
-              Text("Reps: \(nsuns.reps)")
+              Text("\(nsuns.reps) x \(nsuns.weight) lb")
+              Spacer()
+              Text("\(nsuns.percentage)%")
+                .foregroundColor(.gray)
             }
           }
         }
