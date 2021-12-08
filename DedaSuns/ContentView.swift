@@ -12,7 +12,22 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       Form {
-        Stepper("Max \(max)", value: $max)
+        HStack {
+          TextField.init(
+            "Max",
+            value: $max,
+            formatter: NumberFormatter()
+          )
+          Stepper.init(
+            "",
+            onIncrement: {
+              max += 5
+            },
+            onDecrement: {
+              max -= 5
+            }
+          )
+        }
         
         Section {
           List(NsunsWorkout(max: max).nsunsSets) { nsuns in
