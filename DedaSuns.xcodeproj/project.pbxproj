@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92F755527612D7C00E5A175 /* DedaSunsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F755427612D7C00E5A175 /* DedaSunsApp.swift */; };
+		F92F755727612D7C00E5A175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F755627612D7C00E5A175 /* ContentView.swift */; };
+		F92F755927612D7D00E5A175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92F755827612D7D00E5A175 /* Assets.xcassets */; };
+		F92F755C27612D7D00E5A175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */; };
+		F92F756627612D7D00E5A175 /* DedaSunsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F756527612D7D00E5A175 /* DedaSunsTests.swift */; };
+		F92F757027612D7D00E5A175 /* DedaSunsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */; };
+		F92F757227612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92F756227612D7D00E5A175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92F754927612D7C00E5A175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92F755027612D7C00E5A175;
+			remoteInfo = DedaSuns;
+		};
+		F92F756C27612D7D00E5A175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92F754927612D7C00E5A175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92F755027612D7C00E5A175;
+			remoteInfo = DedaSuns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F92F755127612D7C00E5A175 /* DedaSuns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DedaSuns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F755427612D7C00E5A175 /* DedaSunsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsApp.swift; sourceTree = "<group>"; };
+		F92F755627612D7C00E5A175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F92F755827612D7D00E5A175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F92F756127612D7D00E5A175 /* DedaSunsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DedaSunsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F756527612D7D00E5A175 /* DedaSunsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsTests.swift; sourceTree = "<group>"; };
+		F92F756B27612D7D00E5A175 /* DedaSunsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DedaSunsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsUITests.swift; sourceTree = "<group>"; };
+		F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92F754E27612D7C00E5A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F755E27612D7D00E5A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F756827612D7D00E5A175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92F754827612D7C00E5A175 = {
+			isa = PBXGroup;
+			children = (
+				F92F755327612D7C00E5A175 /* DedaSuns */,
+				F92F756427612D7D00E5A175 /* DedaSunsTests */,
+				F92F756E27612D7D00E5A175 /* DedaSunsUITests */,
+				F92F755227612D7C00E5A175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92F755227612D7C00E5A175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92F755127612D7C00E5A175 /* DedaSuns.app */,
+				F92F756127612D7D00E5A175 /* DedaSunsTests.xctest */,
+				F92F756B27612D7D00E5A175 /* DedaSunsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92F755327612D7C00E5A175 /* DedaSuns */ = {
+			isa = PBXGroup;
+			children = (
+				F92F755427612D7C00E5A175 /* DedaSunsApp.swift */,
+				F92F755627612D7C00E5A175 /* ContentView.swift */,
+				F92F755827612D7D00E5A175 /* Assets.xcassets */,
+				F92F755A27612D7D00E5A175 /* Preview Content */,
+			);
+			path = DedaSuns;
+			sourceTree = "<group>";
+		};
+		F92F755A27612D7D00E5A175 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F92F756427612D7D00E5A175 /* DedaSunsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92F756527612D7D00E5A175 /* DedaSunsTests.swift */,
+			);
+			path = DedaSunsTests;
+			sourceTree = "<group>";
+		};
+		F92F756E27612D7D00E5A175 /* DedaSunsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */,
+				F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */,
+			);
+			path = DedaSunsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92F755027612D7C00E5A175 /* DedaSuns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F757527612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSuns" */;
+			buildPhases = (
+				F92F754D27612D7C00E5A175 /* Sources */,
+				F92F754E27612D7C00E5A175 /* Frameworks */,
+				F92F754F27612D7C00E5A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DedaSuns;
+			productName = DedaSuns;
+			productReference = F92F755127612D7C00E5A175 /* DedaSuns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92F756027612D7D00E5A175 /* DedaSunsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F757827612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSunsTests" */;
+			buildPhases = (
+				F92F755D27612D7D00E5A175 /* Sources */,
+				F92F755E27612D7D00E5A175 /* Frameworks */,
+				F92F755F27612D7D00E5A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92F756327612D7D00E5A175 /* PBXTargetDependency */,
+			);
+			name = DedaSunsTests;
+			productName = DedaSunsTests;
+			productReference = F92F756127612D7D00E5A175 /* DedaSunsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F92F756A27612D7D00E5A175 /* DedaSunsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F757B27612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSunsUITests" */;
+			buildPhases = (
+				F92F756727612D7D00E5A175 /* Sources */,
+				F92F756827612D7D00E5A175 /* Frameworks */,
+				F92F756927612D7D00E5A175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92F756D27612D7D00E5A175 /* PBXTargetDependency */,
+			);
+			name = DedaSunsUITests;
+			productName = DedaSunsUITests;
+			productReference = F92F756B27612D7D00E5A175 /* DedaSunsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92F754927612D7C00E5A175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F92F755027612D7C00E5A175 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F92F756027612D7D00E5A175 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F92F755027612D7C00E5A175;
+					};
+					F92F756A27612D7D00E5A175 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F92F755027612D7C00E5A175;
+					};
+				};
+			};
+			buildConfigurationList = F92F754C27612D7C00E5A175 /* Build configuration list for PBXProject "DedaSuns" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92F754827612D7C00E5A175;
+			productRefGroup = F92F755227612D7C00E5A175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92F755027612D7C00E5A175 /* DedaSuns */,
+				F92F756027612D7D00E5A175 /* DedaSunsTests */,
+				F92F756A27612D7D00E5A175 /* DedaSunsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92F754F27612D7C00E5A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F755C27612D7D00E5A175 /* Preview Assets.xcassets in Resources */,
+				F92F755927612D7D00E5A175 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F755F27612D7D00E5A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F756927612D7D00E5A175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92F754D27612D7C00E5A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F755727612D7C00E5A175 /* ContentView.swift in Sources */,
+				F92F755527612D7C00E5A175 /* DedaSunsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F755D27612D7D00E5A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F756627612D7D00E5A175 /* DedaSunsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92F756727612D7D00E5A175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F757227612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift in Sources */,
+				F92F757027612D7D00E5A175 /* DedaSunsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92F756327612D7D00E5A175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92F755027612D7C00E5A175 /* DedaSuns */;
+			targetProxy = F92F756227612D7D00E5A175 /* PBXContainerItemProxy */;
+		};
+		F92F756D27612D7D00E5A175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92F755027612D7C00E5A175 /* DedaSuns */;
+			targetProxy = F92F756C27612D7D00E5A175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F92F757327612D7D00E5A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F92F757427612D7D00E5A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92F757627612D7D00E5A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DedaSuns/Preview Content\"";
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSuns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92F757727612D7D00E5A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DedaSuns/Preview Content\"";
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSuns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F92F757927612D7D00E5A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSunsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DedaSuns.app/DedaSuns";
+			};
+			name = Debug;
+		};
+		F92F757A27612D7D00E5A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSunsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DedaSuns.app/DedaSuns";
+			};
+			name = Release;
+		};
+		F92F757C27612D7D00E5A175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSunsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DedaSuns;
+			};
+			name = Debug;
+		};
+		F92F757D27612D7D00E5A175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deda.DedaSunsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DedaSuns;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92F754C27612D7C00E5A175 /* Build configuration list for PBXProject "DedaSuns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F757327612D7D00E5A175 /* Debug */,
+				F92F757427612D7D00E5A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F757527612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSuns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F757627612D7D00E5A175 /* Debug */,
+				F92F757727612D7D00E5A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F757827612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSunsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F757927612D7D00E5A175 /* Debug */,
+				F92F757A27612D7D00E5A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F757B27612D7D00E5A175 /* Build configuration list for PBXNativeTarget "DedaSunsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F757C27612D7D00E5A175 /* Debug */,
+				F92F757D27612D7D00E5A175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92F754927612D7C00E5A175 /* Project object */;
+}
