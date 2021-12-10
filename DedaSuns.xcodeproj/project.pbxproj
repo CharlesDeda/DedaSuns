@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3313F51227640D8E00DE3BB0 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3313F51127640D8E00DE3BB0 /* ComposableArchitecture */; };
+		3313F517276416CA00DE3BB0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313F516276416CA00DE3BB0 /* Extensions.swift */; };
+		3313F51A276416F800DE3BB0 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313F519276416F800DE3BB0 /* AppState.swift */; };
+		3313F51C2764170300DE3BB0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313F51B2764170300DE3BB0 /* AppView.swift */; };
+		3313F51F2764173900DE3BB0 /* NsunState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313F51E2764173900DE3BB0 /* NsunState.swift */; };
+		3313F5212764174500DE3BB0 /* NsunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3313F5202764174500DE3BB0 /* NsunView.swift */; };
 		F92F755527612D7C00E5A175 /* DedaSunsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F755427612D7C00E5A175 /* DedaSunsApp.swift */; };
-		F92F755727612D7C00E5A175 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F755627612D7C00E5A175 /* ContentView.swift */; };
 		F92F755927612D7D00E5A175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92F755827612D7D00E5A175 /* Assets.xcassets */; };
 		F92F755C27612D7D00E5A175 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */; };
-		F92F756627612D7D00E5A175 /* DedaSunsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F756527612D7D00E5A175 /* DedaSunsTests.swift */; };
-		F92F757027612D7D00E5A175 /* DedaSunsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */; };
-		F92F757227612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */; };
-		F92F757F2761307900E5A175 /* Nsuns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92F757E2761307900E5A175 /* Nsuns.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3313F516276416CA00DE3BB0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3313F519276416F800DE3BB0 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		3313F51B2764170300DE3BB0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		3313F51E2764173900DE3BB0 /* NsunState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsunState.swift; sourceTree = "<group>"; };
+		3313F5202764174500DE3BB0 /* NsunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsunView.swift; sourceTree = "<group>"; };
 		F92F755127612D7C00E5A175 /* DedaSuns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DedaSuns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92F755427612D7C00E5A175 /* DedaSunsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsApp.swift; sourceTree = "<group>"; };
-		F92F755627612D7C00E5A175 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F92F755827612D7D00E5A175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F92F756127612D7D00E5A175 /* DedaSunsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DedaSunsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F92F756527612D7D00E5A175 /* DedaSunsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsTests.swift; sourceTree = "<group>"; };
 		F92F756B27612D7D00E5A175 /* DedaSunsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DedaSunsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsUITests.swift; sourceTree = "<group>"; };
-		F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DedaSunsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F92F757E2761307900E5A175 /* Nsuns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nsuns.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3313F51227640D8E00DE3BB0 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +75,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3313F515276416BF00DE3BB0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3313F516276416CA00DE3BB0 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3313F518276416E300DE3BB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3313F519276416F800DE3BB0 /* AppState.swift */,
+				3313F51B2764170300DE3BB0 /* AppView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3313F51D2764171B00DE3BB0 /* Nsuns */ = {
+			isa = PBXGroup;
+			children = (
+				3313F51E2764173900DE3BB0 /* NsunState.swift */,
+				3313F5202764174500DE3BB0 /* NsunView.swift */,
+			);
+			path = Nsuns;
+			sourceTree = "<group>";
+		};
 		F92F754827612D7C00E5A175 = {
 			isa = PBXGroup;
 			children = (
 				F92F755327612D7C00E5A175 /* DedaSuns */,
-				F92F756427612D7D00E5A175 /* DedaSunsTests */,
-				F92F756E27612D7D00E5A175 /* DedaSunsUITests */,
 				F92F755227612D7C00E5A175 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,8 +123,9 @@
 			isa = PBXGroup;
 			children = (
 				F92F755427612D7C00E5A175 /* DedaSunsApp.swift */,
-				F92F755627612D7C00E5A175 /* ContentView.swift */,
-				F92F757E2761307900E5A175 /* Nsuns.swift */,
+				3313F518276416E300DE3BB0 /* App */,
+				3313F51D2764171B00DE3BB0 /* Nsuns */,
+				3313F515276416BF00DE3BB0 /* Extensions */,
 				F92F755827612D7D00E5A175 /* Assets.xcassets */,
 				F92F755A27612D7D00E5A175 /* Preview Content */,
 			);
@@ -111,23 +138,6 @@
 				F92F755B27612D7D00E5A175 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		F92F756427612D7D00E5A175 /* DedaSunsTests */ = {
-			isa = PBXGroup;
-			children = (
-				F92F756527612D7D00E5A175 /* DedaSunsTests.swift */,
-			);
-			path = DedaSunsTests;
-			sourceTree = "<group>";
-		};
-		F92F756E27612D7D00E5A175 /* DedaSunsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F92F756F27612D7D00E5A175 /* DedaSunsUITests.swift */,
-				F92F757127612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift */,
-			);
-			path = DedaSunsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +156,9 @@
 			dependencies = (
 			);
 			name = DedaSuns;
+			packageProductDependencies = (
+				3313F51127640D8E00DE3BB0 /* ComposableArchitecture */,
+			);
 			productName = DedaSuns;
 			productReference = F92F755127612D7C00E5A175 /* DedaSuns.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +231,9 @@
 				Base,
 			);
 			mainGroup = F92F754827612D7C00E5A175;
+			packageReferences = (
+				3313F51027640D8E00DE3BB0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = F92F755227612D7C00E5A175 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92F757F2761307900E5A175 /* Nsuns.swift in Sources */,
-				F92F755727612D7C00E5A175 /* ContentView.swift in Sources */,
+				3313F517276416CA00DE3BB0 /* Extensions.swift in Sources */,
+				3313F51F2764173900DE3BB0 /* NsunState.swift in Sources */,
+				3313F51A276416F800DE3BB0 /* AppState.swift in Sources */,
+				3313F51C2764170300DE3BB0 /* AppView.swift in Sources */,
+				3313F5212764174500DE3BB0 /* NsunView.swift in Sources */,
 				F92F755527612D7C00E5A175 /* DedaSunsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92F756627612D7D00E5A175 /* DedaSunsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92F757227612D7D00E5A175 /* DedaSunsUITestsLaunchTests.swift in Sources */,
-				F92F757027612D7D00E5A175 /* DedaSunsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DedaSuns/Preview Content\"";
-				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				DEVELOPMENT_TEAM = ME637H7ZM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DedaSuns/Preview Content\"";
-				DEVELOPMENT_TEAM = C5W9KX8U9C;
+				DEVELOPMENT_TEAM = ME637H7ZM9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -609,6 +625,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3313F51027640D8E00DE3BB0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3313F51127640D8E00DE3BB0 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3313F51027640D8E00DE3BB0 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F92F754927612D7C00E5A175 /* Project object */;
 }
